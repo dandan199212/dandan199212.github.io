@@ -138,10 +138,17 @@
 }
 
 h1 {
-  font-family: Garamond,serif;
-  font-size:px;
-  margin-left:40px;
+  font-family: Futura,sans-serif;
+  font-size:32px;
+  margin-left:30px;
   margin-top: 50px;
+  font-weight:normal;
+}
+
+h3 {
+  font-family: Futura,sans-serif;
+  font-size:25px;
+  margin-left:50px;
   font-weight:normal;
   font-style: italic;
 }
@@ -149,8 +156,45 @@ h1 {
 h2 {
   font-family: Garamond,serif;
   font-size:20px;
-  margin-left:90px;
+  margin-left:70px;
   margin-top: 5px;
   font-weight:normal;
   font-style: italic;
 }
+
+p{
+  font-family: Garamond,serif;
+  font-size:16px;
+  margin-left:100px;
+  margin-right:20px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 140px;
+    font-family: Garamond,serif;
+    font-size:15px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-family: Garamond,serif;
+    font-size:16px;
+    font-weight: normal;
+    text-align: center;
+    text-align: bottom;
+    font-style: italic;
+}
+
+.left-panel
+{        
+    width:45%;
+    float:left;            
+}
+.right-panel
+{        
+    width:55%;
+    float:right;
+}​
+
